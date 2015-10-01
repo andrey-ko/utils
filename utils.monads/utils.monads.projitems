@@ -27,6 +27,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)sources\ItorMonad.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)sources\ItorMonad(T).cs" />
     <Compile Include="$(MSBuildThisFileDirectory)sources\MonadExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)sources\MonadModule.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)sources\MonadStep(T).cs" />
     <Compile Include="$(MSBuildThisFileDirectory)sources\MonadStep.cs" />
   </ItemGroup>
