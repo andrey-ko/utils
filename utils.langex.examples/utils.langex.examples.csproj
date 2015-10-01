@@ -47,6 +47,9 @@
 		<Compile Include="Trigger\Trigger.cs" />
 		<Compile Include="Trigger\Trigger.State.generated.cs" />
 		<LangEx Include="Trigger\Trigger.State.xml" />
+		<Compile Include="PubsubClient\PubsubClient.cs" />
+		<Compile Include="PubsubClient\PubsubClient.SubscribeError.generated.cs" />
+		<LangEx Include="PubsubClient\PubsubClient.SubscribeError.xml" />
 	</ItemGroup>
 	<ItemGroup>
 		<Content Include="license.txt" />
