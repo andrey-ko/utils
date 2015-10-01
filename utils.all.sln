@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{E7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "utils.monads.tests", "utils.monads.tests\utils.monads.tests.csproj", "{5D9CE47E-9B4C-440D-823B-D21BE045215D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{CE7165FD-F7DB-4CC7-A3ED-14547A985FAB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assemblies", "assemblies", "{CE7165FD-F7DB-4CC7-A3ED-14547A985FAB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "utils.net46", "utils.net46\utils.net46.csproj", "{7E80FB58-21B1-408D-8BDB-46AC05AF9CC1}"
 EndProject
