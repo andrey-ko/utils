@@ -15,14 +15,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "utils.langex.examples", "ut
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{E7DF4841-4BBC-4E07-8FA1-1D984169258C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "utils.monads.examples", "utils.monads.examples\utils.monads.examples.csproj", "{2BE49E28-DC31-4FE2-A696-CEFB9747F06E}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		utils.langex\utils.langex.projitems*{89875363-db70-44e3-a93b-ddcba8020e1c}*SharedItemsImports = 13
 		utils.common\utils.common.projitems*{fe354457-bdd5-4bd4-b29d-861b4974ac56}*SharedItemsImports = 13
-		utils.common\utils.common.projitems*{158dce85-0d4b-4ffe-bdec-174e28d32a31}*SharedItemsImports = 4
-		utils.async\utils.async.projitems*{158dce85-0d4b-4ffe-bdec-174e28d32a31}*SharedItemsImports = 4
 		utils.langex\utils.langex.projitems*{158dce85-0d4b-4ffe-bdec-174e28d32a31}*SharedItemsImports = 4
-		utils.monads\utils.monads.projitems*{158dce85-0d4b-4ffe-bdec-174e28d32a31}*SharedItemsImports = 4
 		utils.async\utils.async.projitems*{b5f4364c-c555-48a3-a13e-55a86d3343cb}*SharedItemsImports = 13
 		utils.monads\utils.monads.projitems*{a70a3b5c-9bd6-4227-8611-4197d0226fc1}*SharedItemsImports = 13
 	EndGlobalSection
@@ -35,11 +34,16 @@ Global
 		{158DCE85-0D4B-4FFE-BDEC-174E28D32A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{158DCE85-0D4B-4FFE-BDEC-174E28D32A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{158DCE85-0D4B-4FFE-BDEC-174E28D32A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BE49E28-DC31-4FE2-A696-CEFB9747F06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE49E28-DC31-4FE2-A696-CEFB9747F06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE49E28-DC31-4FE2-A696-CEFB9747F06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE49E28-DC31-4FE2-A696-CEFB9747F06E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{158DCE85-0D4B-4FFE-BDEC-174E28D32A31} = {E7DF4841-4BBC-4E07-8FA1-1D984169258C}
+		{2BE49E28-DC31-4FE2-A696-CEFB9747F06E} = {E7DF4841-4BBC-4E07-8FA1-1D984169258C}
 	EndGlobalSection
 EndGlobal
