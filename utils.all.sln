@@ -19,7 +19,10 @@ Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		utils.langex\utils.langex.projitems*{89875363-db70-44e3-a93b-ddcba8020e1c}*SharedItemsImports = 13
 		utils.common\utils.common.projitems*{fe354457-bdd5-4bd4-b29d-861b4974ac56}*SharedItemsImports = 13
+		utils.common\utils.common.projitems*{158dce85-0d4b-4ffe-bdec-174e28d32a31}*SharedItemsImports = 4
+		utils.async\utils.async.projitems*{158dce85-0d4b-4ffe-bdec-174e28d32a31}*SharedItemsImports = 4
 		utils.langex\utils.langex.projitems*{158dce85-0d4b-4ffe-bdec-174e28d32a31}*SharedItemsImports = 4
+		utils.monads\utils.monads.projitems*{158dce85-0d4b-4ffe-bdec-174e28d32a31}*SharedItemsImports = 4
 		utils.async\utils.async.projitems*{b5f4364c-c555-48a3-a13e-55a86d3343cb}*SharedItemsImports = 13
 		utils.monads\utils.monads.projitems*{a70a3b5c-9bd6-4227-8611-4197d0226fc1}*SharedItemsImports = 13
 	EndGlobalSection
