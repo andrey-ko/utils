@@ -17,13 +17,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{E7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "utils.monads.examples", "utils.monads.examples\utils.monads.examples.csproj", "{2BE49E28-DC31-4FE2-A696-CEFB9747F06E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "utils.monads.tests", "utils.monads.tests\utils.monads.tests.csproj", "{5D9CE47E-9B4C-440D-823B-D21BE045215D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assemblies", "assemblies", "{CE7165FD-F7DB-4CC7-A3ED-14547A985FAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "utils.net46", "utils.net46\utils.net46.csproj", "{7E80FB58-21B1-408D-8BDB-46AC05AF9CC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C24D9E67-7313-4A65-B602-61893DEC108B}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		utils.langex\utils.langex.projitems*{89875363-db70-44e3-a93b-ddcba8020e1c}*SharedItemsImports = 13
 		utils.common\utils.common.projitems*{fe354457-bdd5-4bd4-b29d-861b4974ac56}*SharedItemsImports = 13
-		utils.langex\utils.langex.projitems*{158dce85-0d4b-4ffe-bdec-174e28d32a31}*SharedItemsImports = 4
 		utils.async\utils.async.projitems*{b5f4364c-c555-48a3-a13e-55a86d3343cb}*SharedItemsImports = 13
 		utils.monads\utils.monads.projitems*{a70a3b5c-9bd6-4227-8611-4197d0226fc1}*SharedItemsImports = 13
+		utils.langex\utils.langex.projitems*{158dce85-0d4b-4ffe-bdec-174e28d32a31}*SharedItemsImports = 4
+		utils.async\utils.async.projitems*{7e80fb58-21b1-408d-8bdb-46ac05af9cc1}*SharedItemsImports = 4
+		utils.common\utils.common.projitems*{7e80fb58-21b1-408d-8bdb-46ac05af9cc1}*SharedItemsImports = 4
+		utils.langex\utils.langex.projitems*{7e80fb58-21b1-408d-8bdb-46ac05af9cc1}*SharedItemsImports = 4
+		utils.monads\utils.monads.projitems*{7e80fb58-21b1-408d-8bdb-46ac05af9cc1}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +50,14 @@ Global
 		{2BE49E28-DC31-4FE2-A696-CEFB9747F06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BE49E28-DC31-4FE2-A696-CEFB9747F06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BE49E28-DC31-4FE2-A696-CEFB9747F06E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D9CE47E-9B4C-440D-823B-D21BE045215D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D9CE47E-9B4C-440D-823B-D21BE045215D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D9CE47E-9B4C-440D-823B-D21BE045215D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D9CE47E-9B4C-440D-823B-D21BE045215D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E80FB58-21B1-408D-8BDB-46AC05AF9CC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E80FB58-21B1-408D-8BDB-46AC05AF9CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E80FB58-21B1-408D-8BDB-46AC05AF9CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E80FB58-21B1-408D-8BDB-46AC05AF9CC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,5 +65,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{158DCE85-0D4B-4FFE-BDEC-174E28D32A31} = {E7DF4841-4BBC-4E07-8FA1-1D984169258C}
 		{2BE49E28-DC31-4FE2-A696-CEFB9747F06E} = {E7DF4841-4BBC-4E07-8FA1-1D984169258C}
+		{5D9CE47E-9B4C-440D-823B-D21BE045215D} = {C24D9E67-7313-4A65-B602-61893DEC108B}
+		{7E80FB58-21B1-408D-8BDB-46AC05AF9CC1} = {CE7165FD-F7DB-4CC7-A3ED-14547A985FAB}
 	EndGlobalSection
 EndGlobal
